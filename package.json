@@ -1,5 +1,5 @@
 {
-  "name": "string-utils-lib",
+  "name": "str-man",
   "version": "1.0.0",
   "description": "A lightweight and efficient library for string transformations, validations, and formatting.",
   "main": "dist/index.js",
