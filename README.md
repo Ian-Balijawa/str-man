@@ -1,11 +1,11 @@
-# string-utils-lite
+# @ianbalijawa16/str-man
 
 A lightweight, dependency-free TypeScript library for string utilities.
 
 ## Installation
 
 ```bash
-npm install string-utils-lite
+npm install @ianbalijawa16/str-man
 ```
 
 ## Features
@@ -19,7 +19,7 @@ npm install string-utils-lite
 ### Case Conversions
 
 ```typescript
-import { toCamelCase, toSnakeCase, toKebabCase, toPascalCase } from 'string-utils-lite';
+import { toCamelCase, toSnakeCase, toKebabCase, toPascalCase } from '@ianbalijawa16/str-man';
 
 console.log(toCamelCase('hello world')); // 'helloWorld'
 console.log(toSnakeCase('helloWorld')); // 'hello_world'
@@ -30,7 +30,7 @@ console.log(toPascalCase('hello world')); // 'HelloWorld'
 ### Validations
 
 ```typescript
-import { isValidEmail, isValidURL, isAlphanumeric } from 'string-utils-lite';
+import { isValidEmail, isValidURL, isAlphanumeric } from '@ianbalijawa16/str-man';
 
 console.log(isValidEmail('test@example.com')); // true
 console.log(isValidURL('https://example.com')); // true
@@ -40,7 +40,7 @@ console.log(isAlphanumeric('Hello123')); // true
 ### String Manipulation
 
 ```typescript
-import { truncate, padString } from 'string-utils-lite';
+import { truncate, padString } from '@ianbalijawa16/str-man';
 
 console.log(truncate('Hello World', 5)); // 'Hello...'
 console.log(padString('123', 5)); // '123  '

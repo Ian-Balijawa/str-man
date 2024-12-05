@@ -1,6 +1,6 @@
 {
   "name": "@ianbalijawa16/str-man",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lightweight and efficient library for string transformations, validations, and formatting.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
